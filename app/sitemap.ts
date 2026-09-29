@@ -13,7 +13,7 @@ const pages: { path: string; priority: number; freq: "weekly" | "monthly" | "yea
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = `https://${site.domain}`;
+  const base = site.url;
   const lastModified = new Date(site.legalUpdated);
   return pages.flatMap(({ path, priority, freq }) =>
     (["no", "en"] as const).map((l) => ({

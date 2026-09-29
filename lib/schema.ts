@@ -2,7 +2,7 @@ import { site } from "./site";
 import type { Locale } from "./i18n";
 
 // JSON-LD structured data (schema.org) for Google rich results and AI search engines.
-const base = `https://${site.domain}`;
+const base = site.url;
 const orgId = `${base}/#organization`;
 const siteId = `${base}/#website`;
 

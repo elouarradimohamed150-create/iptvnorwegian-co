@@ -4,7 +4,11 @@
 // ─────────────────────────────────────────────────────────────
 export const site = {
   name: "IPTV Norwegian",
-  domain: "iptvnorwegian.co",
+  domain: "iptvnorwegian.co", // shown to visitors (share image, text)
+  // The one address Google should index. Must match the primary domain in Vercel
+  // (Vercel redirects iptvnorwegian.co → www.iptvnorwegian.co). Used for sitemap,
+  // canonical/hreflang links, robots.txt, structured data and WhatsApp page links.
+  url: "https://www.iptvnorwegian.co",
   // Taken from the old site. Consider a support@iptvnorwegian.co mailbox later for a more professional look.
   email: "goldengateiptv@gmail.com",
 
@@ -66,5 +70,5 @@ export function contactHref(message?: string) {
  */
 export function waHref({ locale, intro, button, path }: { locale: string; intro: string; button: string; path: string }) {
   const l = locale === "en" ? { b: "Button", p: "Page" } : { b: "Knapp", p: "Side" };
-  return contactHref(`${intro}\n\n${l.b}: ${button}\n${l.p}: https://${site.domain}${path}`);
+  return contactHref(`${intro}\n\n${l.b}: ${button}\n${l.p}: ${site.url}${path}`);
 }

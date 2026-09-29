@@ -6,7 +6,7 @@ import en from "@/messages/en.json";
 export const dynamic = "force-static";
 
 export function GET() {
-  const base = `https://${site.domain}`;
+  const base = site.url;
   const plans = en.pricing.plans.filter((p) => Number(p.price) > 0).map((p) => `- ${p.name}: NOK ${p.price} (about NOK ${Math.round(Number(p.price) / (parseInt(p.period, 10) || 1))}/month)`).join("\n");
   const faq = en.faq.items.map((f) => `### ${f.q}\n${f.a}`).join("\n\n");
   const body = `# ${site.name} – IPTV Norge / IPTV Norway

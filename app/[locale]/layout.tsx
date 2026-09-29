@@ -25,7 +25,7 @@ export async function generateMetadata({
   const { locale } = (await params) as { locale: Locale };
   const t = getDictionary(locale);
   return {
-    metadataBase: new URL(`https://${site.domain}`),
+    metadataBase: new URL(site.url),
     title: { default: t.meta.title, template: `%s | ${t.meta.brand}` },
     description: t.meta.description,
     applicationName: t.meta.brand,
