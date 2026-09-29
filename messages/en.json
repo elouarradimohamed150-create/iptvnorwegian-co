@@ -1,0 +1,665 @@
+{
+  "offer": {
+    "badge": "Limited offer",
+    "title": "{plan} for NOK {price}",
+    "perMonth": "Only NOK {pm} a month",
+    "save": "Save {pct}% compared with paying month by month.",
+    "points": [
+      "HD, Full HD and 4K",
+      "Every device",
+      "Support included",
+      "14-day right of withdrawal"
+    ],
+    "endsIn": "Offer valid until {date}",
+    "units": [
+      "days",
+      "hours",
+      "min",
+      "sec"
+    ],
+    "cta": "Get the offer",
+    "no": "No thanks",
+    "close": "Close",
+    "wa": "Hi! I'd like the {plan} offer – NOK {price}."
+  },
+  "meta": {
+    "title": "IPTV Norway – Free Trial | HD & 4K on Every Device",
+    "description": "IPTV Norway with live TV, movies and series in HD and 4K on Smart TV, phone and tablet. Try free for 1 day. From NOK 83/month. No lock-in.",
+    "brand": "IPTV Norway",
+    "ogAlt": "IPTV Norway – TV on every screen"
+  },
+  "nav": {
+    "home": "Home",
+    "reseller": "Reseller program",
+    "installation": "Installation guide",
+    "contact": "Contact",
+    "about": "About",
+    "faq": "FAQ",
+    "cta": "Try now"
+  },
+  "hero": {
+    "title": "IPTV Norway – All your TV on every screen.",
+    "subtitle": "Watch live TV, movies and series in HD and 4K with IPTV Norway – on Smart TV, phone and tablet. Try free for 1 day, no lock-in.",
+    "tagline": "",
+    "primary": "See pricing",
+    "secondary": "How it works",
+    "screen": "TV guide",
+    "trust": "No lock-in · 14-day right of withdrawal · Support included",
+    "badges": [
+      "Free trial",
+      "No lock-in",
+      "24/7 support",
+      "HD, FHD and 4K"
+    ]
+  },
+  "devices": {
+    "title": "Works on every device",
+    "text": "Our service works on all devices and apps that are not locked to a specific provider. You can install it on up to three devices, but watch on only one at a time.",
+    "tagline": "Enjoy IPTV Norway wherever you are in the world!",
+    "list": [
+      "Smart TV",
+      "Apple TV",
+      "Android TV box",
+      "Phone",
+      "Tablet",
+      "Computer",
+      "Xbox",
+      "PlayStation",
+      "Chromecast",
+      "TV stick"
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Plans",
+    "title": "Our IPTV Norway plans",
+    "subtitle": "You decide how long you want access to our service. You are never locked in!",
+    "currency": "NOK",
+    "cta": "Order now",
+    "popular": "Most popular",
+    "note": "Note: Add extra connections at a lower price. ATTENTION! Requires an active connection.",
+    "support": "Contact support now",
+    "features": [
+      "Watch on any device",
+      "HD / Full HD / 4K",
+      "Automatic updates",
+      "Electronic programme guide (EPG)",
+      "14-day right of withdrawal",
+      "Customer support included"
+    ],
+    "plans": [
+      {
+        "name": "1 day",
+        "price": "0",
+        "period": "1 day"
+      },
+      {
+        "name": "1 month",
+        "price": "222",
+        "period": "1 month"
+      },
+      {
+        "name": "3 months",
+        "price": "455",
+        "period": "3 months",
+        "popular": true
+      },
+      {
+        "name": "6 months",
+        "price": "800",
+        "period": "6 months"
+      },
+      {
+        "name": "12 months",
+        "price": "1200",
+        "period": "12 months"
+      },
+      {
+        "name": "24 months",
+        "price": "2000",
+        "period": "24 months"
+      }
+    ],
+    "choose": "Choose period",
+    "perMonth": "/mo",
+    "billed": "NOK {price} total for {period}. No lock-in.",
+    "save": "Save {pct}%",
+    "trial": "Or try free for 1 day",
+    "included": "Everything included",
+    "checkout": "Go to checkout",
+    "loading": "Taking you to checkout …",
+    "secure": "Secure payment with",
+    "error": "Something went wrong. Try again, or contact us.",
+    "waOrder": "Hi! I'd like to order {plan} – NOK {price}.",
+    "waTrial": "Hi! I'd like to try it free for 1 day.",
+    "waHelp": "Hi! I have a question about the service."
+  },
+  "reasons": {
+    "eyebrow": "Why us",
+    "title": "Stability & quality = IPTV Norway",
+    "text": "We offer a free trial because you should test before you pay. Don't trust providers who want you to buy a full year up front.",
+    "cta": "Buy / try IPTV",
+    "items": [
+      {
+        "icon": "price",
+        "title": "Fair pricing",
+        "text": "From NOK 83 a month. Start free, and extend when you're happy."
+      },
+      {
+        "icon": "quality",
+        "title": "Sharp picture",
+        "text": "HD and Full HD as standard, and 4K where available."
+      },
+      {
+        "icon": "devices",
+        "title": "Every device",
+        "text": "Smart TV, Apple TV, Android, phone, tablet, PC and more. One account, up to three devices."
+      },
+      {
+        "icon": "support",
+        "title": "Support included",
+        "text": "We help you with setup and troubleshooting – all year round."
+      },
+      {
+        "icon": "speed",
+        "title": "Stable servers",
+        "text": "Fast, stable streaming, even on busy evenings."
+      },
+      {
+        "icon": "mobile",
+        "title": "Watch anywhere",
+        "text": "All you need is a good internet connection."
+      }
+    ],
+    "title_alt": "Why choose IPTV Norway?"
+  },
+  "security": {
+    "title": "Security and privacy",
+    "text": "We look after your data and follow applicable privacy law.",
+    "items": [
+      {
+        "icon": "lock",
+        "title": "Encrypted connection",
+        "text": "All traffic between you and us is encrypted with SSL."
+      },
+      {
+        "icon": "card",
+        "title": "Secure payments",
+        "text": "Payments are handled by Stripe. We never see or store your card details."
+      },
+      {
+        "icon": "shield",
+        "title": "Privacy (GDPR)",
+        "text": "We only collect what we need to deliver the service."
+      },
+      {
+        "icon": "user",
+        "title": "Your account",
+        "text": "Request access to, or deletion of, your data at any time."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Get started in three steps",
+    "cta": "Buy / try for free!",
+    "items": [
+      {
+        "title": "Choose device/app",
+        "text": "Start by deciding which device you want to use (phone, computer, Smart TV, etc.). Download a compatible app from the App Store, Play Store or your device's built-in app library."
+      },
+      {
+        "title": "Read the instructions",
+        "text": "Read the instructions for your device/app CAREFULLY, and double-check spelling when entering the details from our welcome email. You need the login details from the welcome email to sign in."
+      },
+      {
+        "title": "Log in",
+        "text": "Request a free trial or buy a plan. After your trial, we recommend extending by 3 months so you can keep testing in peace."
+      }
+    ],
+    "eyebrow": "How it works"
+  },
+  "multi": {
+    "title": "Watch on multiple devices",
+    "text": "You are never locked to one app or device. You can install the service on three devices, but watch on only one at a time. To watch on two or three devices at once, you need a duo or trio subscription.",
+    "cta": "Buy / try for free!",
+    "scenes": [
+      "Living room Smart TV",
+      "Office laptop",
+      "Tablet while traveling"
+    ]
+  },
+  "nordic": {
+    "title": "Available across the Nordics",
+    "text": "We serve customers in Norway, Sweden, Denmark and Finland. Live TV and a large video library – with something for everyone across sports, news, entertainment and film.",
+    "cta": "Buy / try for free!",
+    "countries": [
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "Finland"
+    ]
+  },
+  "support": {
+    "title": "Support is included in every plan!",
+    "text": "Support helps with everything from installation to troubleshooting your network, so your experience is as good as possible!"
+  },
+  "testimonials": {
+    "title": "Our happy customers",
+    "empty": "",
+    "items": []
+  },
+  "faq": {
+    "title": "IPTV Norway FAQ",
+    "items": [
+      {
+        "q": "What is IPTV?",
+        "a": "IPTV stands for Internet Protocol Television. Instead of receiving TV via antenna, satellite or cable, the content is streamed over the internet to your device."
+      },
+      {
+        "q": "How does IPTV work?",
+        "a": "Video is compressed with codecs such as H.264 or H.265 and delivered over the internet using protocols like HLS. The app on your device downloads small chunks of the stream and plays them back continuously. Adaptive bitrate automatically adjusts quality to your connection speed."
+      },
+      {
+        "q": "What do I need to watch IPTV in Norway?",
+        "a": "You need a stable internet connection (we recommend at least 30 Mbit/s for HD and 4K), a compatible device such as a Smart TV, TV box, phone or computer, an IPTV app and an active subscription."
+      },
+      {
+        "q": "Does IPTV Norway work on Smart TV?",
+        "a": "Yes. IPTV Norway works on Samsung, LG and other Smart TVs with an IPTV player app, as well as Apple TV, Android TV, Fire TV Stick, phone, tablet and PC. The installation guide shows you step by step."
+      },
+      {
+        "q": "How do I try IPTV Norway for free?",
+        "a": "Tap “Start free trial” and send us a message on WhatsApp. You'll get login details for a free 1-day trial, so you can test picture quality and stability on your own device before you buy."
+      },
+      {
+        "q": "How much does IPTV Norway cost?",
+        "a": "IPTV Norway costs from NOK 222 for one month. Longer periods lower the monthly price: NOK 455 for 3 months, NOK 800 for 6 months, NOK 1200 for 12 months and NOK 2000 for 24 months – down to about NOK 83 a month. You can also try it free for one day."
+      },
+      {
+        "q": "How much data does IPTV use?",
+        "a": "Roughly: SD 1–2 GB per hour, HD 3–4 GB per hour, Full HD 4–6 GB per hour and 4K 10–15 GB per hour. Watching three hours of HD a day comes to about 300 GB a month."
+      },
+      {
+        "q": "Can I get my money back if I'm not satisfied?",
+        "a": "Yes. You have a 14-day right of withdrawal under Norwegian law. If you ask us to start the service straight away, you only pay for the days you've used. See the refund and cancellation policy for details."
+      },
+      {
+        "q": "Is IPTV legal in Norway?",
+        "a": "Yes, IPTV as a technology is legal in Norway and is used by many major TV providers. What matters is whether the provider holds the rights to the content it distributes. Always choose a provider that is licensed for its content."
+      },
+      {
+        "q": "Do I need a VPN?",
+        "a": "No, you don't need a VPN to use the service."
+      },
+      {
+        "q": "Can I take the service to another country?",
+        "a": "Yes, you can use the service wherever you have an internet connection, as long as the content rights allow it in the country you're in."
+      }
+    ],
+    "eyebrow": "FAQ",
+    "text": "Can't find the answer? Contact us and we'll help."
+  },
+  "footer": {
+    "tagline": "Experts in IPTV from Norway.",
+    "rights": "All rights reserved.",
+    "terms": "Terms and conditions",
+    "refund": "Refund and cancellation policy",
+    "privacy": "Privacy policy",
+    "cols": {
+      "product": "Service",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "orgnr": "Org. no.",
+    "status": "All systems operational",
+    "reviews": "Read reviews"
+  },
+  "pages": {
+    "about": {
+      "title": "About us",
+      "intro": "We make it easy to watch TV on every screen – with no lock-in and no complicated setup.",
+      "sections": [
+        {
+          "h": "What we do",
+          "p": "We deliver TV streaming to customers in Norway and across the Nordics. The service works on most devices, and you can start with a free trial before you decide."
+        },
+        {
+          "h": "What we stand for",
+          "p": "Honest pricing, no lock-in, and support that actually answers. We'd rather you extend because you're happy than because you're locked in."
+        },
+        {
+          "h": "Support",
+          "p": "Our team helps with everything from installation to network troubleshooting. Email us or use the contact form, and we'll reply as soon as we can."
+        }
+      ],
+      "seo": "About IPTV Norway: TV streaming on every screen across Norway, with no lock-in and a free trial.",
+      "seoTitle": "About us – TV on every screen in Norway"
+    },
+    "reseller": {
+      "title": "Reseller program",
+      "intro": "Run a shop, installation business or IT service? Become a reseller and offer the service to your customers.",
+      "sections": [
+        {
+          "h": "How it works",
+          "p": "You buy credits at reseller prices and create accounts for your customers in your own panel. You set your own retail price."
+        },
+        {
+          "h": "Benefits",
+          "p": "Discounts that grow with volume, your own admin panel, free trial accounts for your customers and priority support."
+        },
+        {
+          "h": "Requirements",
+          "p": "You must run a registered business and follow the laws and regulations on marketing and consumer rights in the country where you sell."
+        },
+        {
+          "h": "Get started",
+          "p": "Send us a message with your company name, organisation number and roughly how many customers you expect, and we'll be in touch."
+        }
+      ],
+      "seo": "Become an IPTV Norway reseller. Reseller pricing, your own panel and priority support.",
+      "seoTitle": "Reseller program – become an IPTV reseller"
+    },
+    "installation": {
+      "title": "Installation guide",
+      "intro": "Get started in minutes. Choose your device and follow the steps.",
+      "sections": [],
+      "seo": "How to install IPTV Norway on Smart TV, Apple TV, Android TV, Fire TV, iPhone, Android and PC – step by step.",
+      "seoTitle": "Installation guide – Smart TV and mobile"
+    },
+    "contact": {
+      "title": "Contact us",
+      "intro": "Questions about the trial, ordering or installation? Send us a message.",
+      "sections": [],
+      "seo": "Contact IPTV Norway on WhatsApp or email about trials, orders and installation.",
+      "seoTitle": "Contact us – WhatsApp and email"
+    },
+    "terms": {
+      "title": "Terms and conditions",
+      "intro": "These terms apply when you buy and use our service. Last updated: {date}.",
+      "sections": [
+        {
+          "h": "1. About the service",
+          "p": "The service is provided by the company listed at the bottom of the page. It gives you access to TV streaming over the internet for the period you have paid for."
+        },
+        {
+          "h": "2. Ordering and payment",
+          "p": "All prices are in Norwegian kroner (NOK) and include any applicable taxes. Payment is made in advance through our payment provider. The agreement is concluded when payment is confirmed."
+        },
+        {
+          "h": "3. Delivery",
+          "p": "Login details are sent to the email address you provide, normally shortly after payment is confirmed."
+        },
+        {
+          "h": "4. Use of the service",
+          "p": "The subscription is for personal use. You may install the service on up to three devices, but watch on one at a time unless you have bought extra connections. Login details must not be shared or resold."
+        },
+        {
+          "h": "5. No lock-in",
+          "p": "The subscription does not renew automatically. You pay for one period at a time and decide whether to extend."
+        },
+        {
+          "h": "6. Right of withdrawal",
+          "p": "You have a 14-day right of withdrawal under the Norwegian Right of Withdrawal Act. See our refund and cancellation policy for details."
+        },
+        {
+          "h": "7. Outages",
+          "p": "We work for stable operation but cannot guarantee the service is always available. For longer outages caused by us, you may be compensated with an extended subscription."
+        },
+        {
+          "h": "8. Changes",
+          "p": "We may change these terms. Changes do not apply to periods you have already paid for."
+        },
+        {
+          "h": "9. Disputes",
+          "p": "The agreement is governed by Norwegian law. Please send complaints to us first. Consumers can also get help from the Norwegian Consumer Authority and the Consumer Council."
+        }
+      ],
+      "seo": "Terms and conditions for IPTV Norway: ordering, payment, delivery, use of the service, withdrawal and disputes.",
+      "seoTitle": "Terms and conditions"
+    },
+    "refund": {
+      "title": "Refund and cancellation policy",
+      "intro": "We want you to feel safe buying from us. Last updated: {date}.",
+      "sections": [
+        {
+          "h": "14-day right of withdrawal",
+          "p": "As a consumer, you have a 14-day right of withdrawal under the Norwegian Right of Withdrawal Act, counted from the day the agreement was made."
+        },
+        {
+          "h": "If the service has started",
+          "p": "If you ask us to start the service before the withdrawal period ends, you still have the right to withdraw. You then pay only for the part of the period you have used and get the rest back."
+        },
+        {
+          "h": "How to withdraw",
+          "p": "Email us your order number and say that you want to withdraw from the purchase. You can also use the standard withdrawal form from the Norwegian Consumer Authority."
+        },
+        {
+          "h": "Refunds",
+          "p": "We refund you no later than 14 days after receiving your notice of withdrawal, to the same payment method you used."
+        },
+        {
+          "h": "Cancellation",
+          "p": "The subscription does not renew automatically, so there is nothing to cancel. Access ends at the end of the period you paid for."
+        }
+      ],
+      "seo": "Refunds at IPTV Norway: your 14-day right of withdrawal, how to withdraw, and when you get your money back.",
+      "seoTitle": "Refund and right of withdrawal"
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "How we handle your personal data. Last updated: {date}.",
+      "sections": [
+        {
+          "h": "Data controller",
+          "p": "The company listed at the bottom of the page is the data controller. Contact us by email about privacy."
+        },
+        {
+          "h": "What we collect",
+          "p": "Name and email address when you order or contact us, and order information. Card details are processed by our payment provider and never stored by us."
+        },
+        {
+          "h": "Why",
+          "p": "To deliver the service you bought (contract), answer enquiries (legitimate interest) and meet accounting obligations (legal obligation)."
+        },
+        {
+          "h": "How long",
+          "p": "Customer data is deleted when you are no longer a customer, except accounting records, which must be kept for five years under Norwegian bookkeeping law."
+        },
+        {
+          "h": "Cookies",
+          "p": "We only use necessary cookies, and analytics only if you consent. You can withdraw consent at any time."
+        },
+        {
+          "h": "Your rights",
+          "p": "You have the right to access, rectify, erase and port your data, and to object to processing. You can complain to the Norwegian Data Protection Authority (Datatilsynet)."
+        }
+      ],
+      "seo": "How IPTV Norway handles your personal data: what we collect, why, how long we keep it, and your rights.",
+      "seoTitle": "Privacy policy and cookies"
+    }
+  },
+  "final": {
+    "title": "Ready to try it?",
+    "text": "Test the full service free for one day. No lock-in.",
+    "cta": "Start free trial"
+  },
+  "cookie": {
+    "text": "We use cookies to measure traffic and improve the site. It's your choice.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "more": "Privacy"
+  },
+  "checkout": {
+    "success": {
+      "title": "Thank you for your order!",
+      "text": "Payment received. You'll shortly get a welcome email with your login details and installation guide. Please check your spam folder too.",
+      "cta": "See installation guide",
+      "home": "Back to home"
+    },
+    "cancel": {
+      "title": "Payment cancelled",
+      "text": "You have not been charged. You can try again whenever you like, or contact us if anything is unclear.",
+      "cta": "Back to pricing"
+    }
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "device": "Device (optional)",
+    "topic": "Topic",
+    "topics": [
+      "Free trial",
+      "Order",
+      "Installation",
+      "Technical help",
+      "Reseller",
+      "Other"
+    ],
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending …",
+    "sent": "Thanks! Your message has been sent. We'll reply as soon as we can.",
+    "error": "Couldn't send. Try again, or email us directly.",
+    "or": "Or contact us directly"
+  },
+  "install": {
+    "choose": "Choose device",
+    "need": "What you need",
+    "needs": [
+      "The login details from your welcome email (server, username, password)",
+      "A stable internet connection – at least 30 Mbit/s for HD and 4K",
+      "An IPTV player app that supports Xtream Codes or M3U"
+    ],
+    "help": "Stuck? We're happy to help.",
+    "helpCta": "Contact support",
+    "devices": [
+      {
+        "icon": "tv",
+        "name": "Smart TV",
+        "sub": "Samsung, LG and other Smart TVs",
+        "steps": [
+          "Open the app store on your TV and search for an IPTV player that supports Xtream Codes or M3U.",
+          "Install and open the app. Some apps show a device ID (MAC) – note it and send it to us if the app requires it.",
+          "Choose “Add playlist” or “Xtream Codes” and enter the server, username and password from your welcome email.",
+          "Wait while channels and the TV guide load. The first time can take a couple of minutes."
+        ]
+      },
+      {
+        "icon": "devices",
+        "name": "Android TV / Fire TV",
+        "sub": "Google TV, Nvidia Shield, Fire TV Stick, TV boxes",
+        "steps": [
+          "Open Google Play (or the Amazon Appstore on Fire TV) and install an IPTV player.",
+          "Open the app and choose login with Xtream Codes (API).",
+          "Enter the server URL, username and password exactly as shown in your welcome email.",
+          "Enable EPG in settings to get the TV guide."
+        ]
+      },
+      {
+        "icon": "tv",
+        "name": "Apple TV",
+        "sub": "Apple TV HD and 4K",
+        "steps": [
+          "Open the App Store on Apple TV and search for an IPTV player.",
+          "Install the app and choose “Add account” or “Xtream Codes”.",
+          "Enter the login details from your welcome email.",
+          "Load channels and the TV guide, and start watching."
+        ]
+      },
+      {
+        "icon": "mobile",
+        "name": "iPhone / iPad",
+        "sub": "iOS and iPadOS",
+        "steps": [
+          "Download an IPTV player from the App Store.",
+          "Open the app and add a new playlist with Xtream Codes or M3U.",
+          "Paste the details from your welcome email. Tip: copy and paste to avoid typos.",
+          "You can also stream to your TV with AirPlay."
+        ]
+      },
+      {
+        "icon": "mobile",
+        "name": "Android phone",
+        "sub": "Phones and tablets",
+        "steps": [
+          "Download an IPTV player from Google Play.",
+          "Open the app and choose Xtream Codes (API) or M3U URL.",
+          "Paste the login details from your welcome email.",
+          "You can cast to your TV with Chromecast."
+        ]
+      },
+      {
+        "icon": "devices",
+        "name": "PC / Mac",
+        "sub": "Windows and macOS",
+        "steps": [
+          "Install an IPTV player for your computer, such as VLC or a dedicated IPTV app.",
+          "In VLC: choose Media → Open Network Stream and paste the M3U link from your welcome email.",
+          "In an IPTV app: choose Xtream Codes and enter the server, username and password.",
+          "Use a wired connection or 5 GHz Wi-Fi for the best stability."
+        ]
+      }
+    ]
+  },
+  "guide": {
+    "eyebrow": "IPTV Norway explained",
+    "title": "What is IPTV Norway?",
+    "paras": [
+      "IPTV Norway is a streaming service that delivers TV over the internet instead of cable, satellite or antenna. You watch live TV, movies and series in an app on the device you already own – Smart TV, TV box, phone, tablet or computer.",
+      "The service is built for viewers in Norway and the rest of the Nordics. It works across the whole country – from Oslo, Bergen and Trondheim to Stavanger, Kristiansand and Tromsø – as long as you have a stable internet connection.",
+      "You need no satellite dish, no set-top box and no contract. You choose how long to subscribe, and you can test everything free for one day before you pay."
+    ],
+    "factsTitle": "IPTV Norway at a glance",
+    "facts": [
+      [
+        "Price",
+        "From NOK 83/month · NOK 222 for 1 month"
+      ],
+      [
+        "Free trial",
+        "1 day"
+      ],
+      [
+        "Picture quality",
+        "HD, Full HD and 4K"
+      ],
+      [
+        "Devices",
+        "Smart TV, Apple TV, Android TV, Fire TV, phone, tablet, PC and Mac"
+      ],
+      [
+        "Simultaneous screens",
+        "1 (more with extra connections)"
+      ],
+      [
+        "Recommended speed",
+        "At least 30 Mbit/s"
+      ],
+      [
+        "Contract",
+        "None"
+      ],
+      [
+        "Right of withdrawal",
+        "14 days"
+      ],
+      [
+        "Available in",
+        "All of Norway, Sweden, Denmark and Finland"
+      ]
+    ]
+  },
+  "crumbHome": "Home",
+  "images": {
+    "hero": "Cozy living room overlooking a Norwegian fjord, with IPTV Norway on a large Smart TV",
+    "family": "Family watching IPTV Norway together in a cabin on a winter evening",
+    "devices": "IPTV Norway on a laptop, tablet and phone, with a TV remote on a wooden table",
+    "train": "Passenger watching IPTV Norway on a tablet on a train through snowy Norwegian mountains",
+    "stadium": "Floodlit football stadium at night – watch live sports with IPTV Norway",
+    "aurora": "Northern lights over a fishing village with red cabins in Northern Norway",
+    "install": "Logging in to an IPTV app on a Smart TV with a remote – installing IPTV Norway",
+    "support": "IPTV Norway customer support – evening workspace with headset and chat",
+    "town": "Norwegian coastal town with colorful wooden houses and snowy mountains at blue hour",
+    "phone": "Hand holding a phone with an IPTV app in front of a TV – get started with IPTV Norway",
+    "shop": "Electronics shop with TV boxes, remotes and cables – become an IPTV Norway reseller"
+  }
+}

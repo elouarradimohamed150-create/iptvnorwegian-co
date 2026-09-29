@@ -1,0 +1,15 @@
+# dependencies & build output
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# environment files (real secrets) – but keep the documented template
+.env*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode
+.idea

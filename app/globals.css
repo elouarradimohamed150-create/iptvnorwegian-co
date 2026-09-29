@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { interpolate-size: allow-keywords; }
+html { scroll-behavior: smooth; background: #030a1a; }
+body { background: #030a1a; color: #eceef3; -webkit-font-smoothing: antialiased; }
+::selection { background: #c8102e; color: #fff; }
+
+@layer components {
+  .btn { @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-6 py-3 text-[15px] font-semibold transition duration-300; }
+  .btn-primary { @apply btn bg-accent text-white shadow-[0_8px_30px_-10px_rgba(200,16,46,.7)] hover:-translate-y-0.5 hover:bg-accent-hi hover:shadow-[0_14px_36px_-10px_rgba(239,64,86,.8)] active:translate-y-0; }
+  .btn-ghost { @apply btn border border-white/15 text-fg hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/5 active:translate-y-0; }
+  .card { @apply rounded-2xl border border-line bg-white/[0.03]; }
+  .eyebrow { @apply text-[13px] font-semibold uppercase tracking-[0.18em] text-accent-hi; }
+  .h2 { @apply text-3xl font-semibold tracking-tight text-fg sm:text-[44px] sm:leading-[1.1]; }
+  .lead { @apply text-[17px] leading-relaxed text-muted; }
+}
+
+/* ── Button sheen ───────────────────────────────────────── */
+.btn-primary::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.35) 50%, transparent 70%);
+  transform: translateX(-120%); transition: transform .8s ease;
+}
+.btn-primary:hover::after { transform: translateX(120%); }
+
+/* ── Scroll reveal (set up by <Reveal>) ─────────────────── */
+.reveal { transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1), filter .9s ease, clip-path 1.1s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
+.reveal-hidden { opacity: 0; transform: translateY(24px); }
+.reveal-hidden[data-anim="scale"] { transform: scale(.96); filter: blur(6px); }
+.reveal-hidden[data-anim="left"] { transform: translateX(-32px); }
+.reveal-hidden[data-anim="right"] { transform: translateX(32px); }
+.reveal-hidden[data-anim="unveil"] { opacity: 1; transform: none; clip-path: inset(12% 12% 12% 12% round 24px); }
+.reveal[data-anim="unveil"] { clip-path: inset(0 0 0 0 round 16px); }
+.reveal[data-anim="unveil"] img { transition: transform 1.6s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
+.reveal-hidden[data-anim="unveil"] img { transform: scale(1.15); }
+
+/* ── Page-load entrance (hero) ──────────────────────────── */
+@keyframes rise { from { opacity: 0; transform: translateY(28px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
+.rise { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; animation-delay: var(--d, 0ms); }
+@keyframes rise-word { from { opacity: 0; transform: translateY(.35em); } to { opacity: 1; transform: none; } }
+.word { display: inline-block; animation: rise-word .6s cubic-bezier(.2,.7,.2,1) both; animation-delay: var(--d, 0ms); }
+
+/* ── Slow cinematic motion ──────────────────────────────── */
+@keyframes kenburns { from { transform: scale(1.02) translate3d(0,0,0); } to { transform: scale(1.12) translate3d(-1.5%,-1%,0); } }
+.kenburns { animation: kenburns 28s ease-in-out infinite alternate; will-change: transform; }
+@keyframes drift { 0% { transform: scale(1.05) translateX(0); } 100% { transform: scale(1.12) translateX(-2.5%); } }
+.drift { animation: drift 24s ease-in-out infinite alternate; will-change: transform; }
+
+/* ── Nordic cross draw-in ───────────────────────────────── */
+@keyframes draw-x { from { transform: translateY(-50%) scaleX(0); } to { transform: translateY(-50%) scaleX(1); } }
+@keyframes draw-y { from { transform: translateX(-50%) scaleY(0); } to { transform: translateX(-50%) scaleY(1); } }
+.draw-x { transform-origin: left center; animation: draw-x 1.8s cubic-bezier(.6,0,.2,1) .5s both; }
+.draw-y { transform-origin: center top; animation: draw-y 1.8s cubic-bezier(.6,0,.2,1) .9s both; }
+
+/* ── TV guide mockup ────────────────────────────────────── */
+@keyframes now-line { from { left: calc(104px + 12%); } to { left: calc(104px + 26%); } }
+.now-line { animation: now-line 18s ease-in-out infinite alternate; }
+@keyframes live { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+.live-dot { animation: live 1.6s ease-in-out infinite; }
+@keyframes progress { from { width: 38%; } to { width: 92%; } }
+.progress { animation: progress 14s linear infinite; }
+@keyframes glow-row { 0%,100% { box-shadow: 0 0 0 0 rgba(200,16,46,0); } 50% { box-shadow: 0 0 22px -2px rgba(200,16,46,.55); } }
+.glow-row { animation: glow-row 3.2s ease-in-out infinite; }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.float { animation: float 6s ease-in-out infinite; }
+
+/* ── Marquee ────────────────────────────────────────────── */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee { animation: marquee 40s linear infinite; }
+.marquee-mask { mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+.marquee-wrap:hover .marquee { animation-play-state: paused; }
+
+/* ── Cursor spotlight on cards (vars set by <Spotlight>) ── */
+.spot { position: relative; isolation: isolate; }
+.spot::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 1;
+  background: radial-gradient(420px circle at var(--mx, -500px) var(--my, -500px), rgba(239,64,86,.10), transparent 45%);
+  opacity: 0; transition: opacity .4s ease;
+}
+.spot:hover::before { opacity: 1; }
+
+/* ── WhatsApp button ────────────────────────────────────── */
+@keyframes pop-in { 0% { opacity: 0; transform: scale(.4) translateY(20px); } 70% { transform: scale(1.08); } 100% { opacity: 1; transform: none; } }
+@keyframes ring { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,.55); } 100% { box-shadow: 0 0 0 16px rgba(37,211,102,0); } }
+.wa-btn { animation: pop-in .7s cubic-bezier(.2,.7,.2,1) 1.8s both, ring 2.4s ease-out 3s infinite; }
+
+/* ── Scroll progress bar (CSS scroll-driven, no JS) ─────── */
+.scroll-progress { position: fixed; inset: 0 0 auto 0; height: 2px; z-index: 60; transform-origin: 0 50%; transform: scaleX(0);
+  background: linear-gradient(90deg, #9a0b26, #ef4056); }
+@supports (animation-timeline: scroll()) {
+  @keyframes grow { to { transform: scaleX(1); } }
+  .scroll-progress { animation: grow linear both; animation-timeline: scroll(root); }
+}
+
+/* ── FAQ: smooth open/close where supported ─────────────── */
+details > summary::-webkit-details-marker { display: none; }
+details::details-content { height: 0; overflow: clip; transition: height .4s cubic-bezier(.2,.7,.2,1), content-visibility .4s allow-discrete; }
+details[open]::details-content { height: auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+  .scroll-progress { display: none; }
+}

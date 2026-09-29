@@ -1,0 +1,665 @@
+{
+  "offer": {
+    "badge": "Begrenset tilbud",
+    "title": "{plan} for {price} kr",
+    "perMonth": "Bare {pm} kr i måneden",
+    "save": "Spar {pct} % sammenlignet med å betale måned for måned.",
+    "points": [
+      "HD, Full HD og 4K",
+      "Alle enheter",
+      "Kundestøtte inkludert",
+      "14 dagers angrerett"
+    ],
+    "endsIn": "Tilbudet gjelder til {date}",
+    "units": [
+      "dager",
+      "timer",
+      "min",
+      "sek"
+    ],
+    "cta": "Hent tilbudet",
+    "no": "Nei takk",
+    "close": "Lukk",
+    "wa": "Hei! Jeg vil ha tilbudet på {plan} – {price} kr."
+  },
+  "meta": {
+    "title": "IPTV Norge – Prøv gratis | HD og 4K på alle enheter",
+    "description": "IPTV Norge med direkte-TV, filmer og serier i HD og 4K på Smart TV, mobil og nettbrett. Prøv gratis i 1 dag. Fra 83 kr/mnd. Ingen binding.",
+    "brand": "IPTV Norge",
+    "ogAlt": "IPTV Norge – TV på alle skjermer"
+  },
+  "nav": {
+    "home": "Hjem",
+    "reseller": "Forhandlerprogram",
+    "installation": "Installasjonsveiledning",
+    "contact": "Kontakt oss",
+    "about": "Om oss",
+    "faq": "FAQ",
+    "cta": "Prøv nå"
+  },
+  "hero": {
+    "title": "IPTV Norge – All TV-en din på alle skjermer.",
+    "subtitle": "Se direkte-TV, filmer og serier i HD og 4K med IPTV Norge – på Smart TV, mobil og nettbrett. Prøv gratis i 1 dag, uten binding.",
+    "tagline": "",
+    "primary": "Se priser",
+    "secondary": "Slik fungerer det",
+    "screen": "TV-guide",
+    "trust": "Ingen binding · 14 dagers angrerett · Kundestøtte inkludert",
+    "badges": [
+      "Gratis prøveperiode",
+      "Ingen binding",
+      "Support døgnet rundt",
+      "HD, FHD og 4K"
+    ]
+  },
+  "devices": {
+    "title": "Fungerer på alle enheter",
+    "text": "Tjenesten vår fungerer på alle enheter og apper som ikke er låst til en bestemt leverandør. Du kan ha tjenesten installert på opptil tre enheter, men bare se på én om gangen.",
+    "tagline": "Nyt IPTV Norge uansett hvor du er i verden!",
+    "list": [
+      "Smart TV",
+      "Apple TV",
+      "Android TV-boks",
+      "Mobil",
+      "Nettbrett",
+      "Datamaskin",
+      "Xbox",
+      "PlayStation",
+      "Chromecast",
+      "TV-stick"
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pakker",
+    "title": "Våre IPTV Norge-pakker",
+    "subtitle": "Du bestemmer selv hvor lenge du vil ha tilgang til tjenesten vår. Du er aldri bundet!",
+    "currency": "NOK",
+    "cta": "Bestill nå",
+    "popular": "Mest populær",
+    "note": "Merk: Legg til ekstra tilkoblinger til en lavere pris. OBS! Krever at du har en aktiv tilkobling.",
+    "support": "Kontakt kundestøtte nå",
+    "features": [
+      "Se på hvilken som helst enhet",
+      "HD / Full HD / 4K",
+      "Automatiske oppdateringer",
+      "Elektronisk programguide (EPG)",
+      "14 dagers angrerett",
+      "Kundestøtte inkludert"
+    ],
+    "plans": [
+      {
+        "name": "1 dag",
+        "price": "0",
+        "period": "1 dag"
+      },
+      {
+        "name": "1 måned",
+        "price": "222",
+        "period": "1 måned"
+      },
+      {
+        "name": "3 måneder",
+        "price": "455",
+        "period": "3 måneder",
+        "popular": true
+      },
+      {
+        "name": "6 måneder",
+        "price": "800",
+        "period": "6 måneder"
+      },
+      {
+        "name": "12 måneder",
+        "price": "1200",
+        "period": "12 måneder"
+      },
+      {
+        "name": "24 måneder",
+        "price": "2000",
+        "period": "24 måneder"
+      }
+    ],
+    "choose": "Velg periode",
+    "perMonth": "/mnd",
+    "billed": "Totalt {price} kr for {period}. Ingen binding.",
+    "save": "Spar {pct}%",
+    "trial": "Eller prøv gratis i 1 dag",
+    "included": "Alt dette er inkludert",
+    "checkout": "Gå til betaling",
+    "loading": "Sender deg til betaling …",
+    "secure": "Sikker betaling med",
+    "error": "Noe gikk galt. Prøv igjen, eller kontakt oss.",
+    "waOrder": "Hei! Jeg vil bestille {plan} – {price} kr.",
+    "waTrial": "Hei! Jeg vil gjerne prøve gratis i 1 dag.",
+    "waHelp": "Hei! Jeg har et spørsmål om tjenesten."
+  },
+  "reasons": {
+    "eyebrow": "Hvorfor oss",
+    "title": "Stabilitet & kvalitet = IPTV Norge",
+    "text": "Vi tilbyr gratis prøveperiode fordi vi mener du skal teste før du betaler. Ikke stol på leverandører som vil at du skal kjøpe et helt år med en gang.",
+    "cta": "Kjøp / prøv IPTV",
+    "items": [
+      {
+        "icon": "price",
+        "title": "Rettferdige priser",
+        "text": "Fra 83 kr i måneden. Start gratis, og forleng når du er fornøyd."
+      },
+      {
+        "icon": "quality",
+        "title": "Skarp bildekvalitet",
+        "text": "HD og Full HD som standard, og 4K der det er tilgjengelig."
+      },
+      {
+        "icon": "devices",
+        "title": "Alle enheter",
+        "text": "Smart TV, Apple TV, Android, mobil, nettbrett, PC og mer. Én konto, opptil tre enheter."
+      },
+      {
+        "icon": "support",
+        "title": "Kundestøtte inkludert",
+        "text": "Vi hjelper deg med oppsett og feilsøking – hele året."
+      },
+      {
+        "icon": "speed",
+        "title": "Stabile servere",
+        "text": "Rask og stabil strømming, også på travle kvelder."
+      },
+      {
+        "icon": "mobile",
+        "title": "Se hvor som helst",
+        "text": "Alt du trenger er en god internettforbindelse."
+      }
+    ],
+    "title_alt": "Hvorfor velge IPTV Norge?"
+  },
+  "security": {
+    "title": "Trygghet og personvern",
+    "text": "Vi tar vare på dataene dine og følger gjeldende personvernregler.",
+    "items": [
+      {
+        "icon": "lock",
+        "title": "Kryptert forbindelse",
+        "text": "All trafikk mellom deg og oss er kryptert med SSL."
+      },
+      {
+        "icon": "card",
+        "title": "Sikre betalinger",
+        "text": "Betalinger håndteres av Stripe. Vi ser eller lagrer aldri kortopplysningene dine."
+      },
+      {
+        "icon": "shield",
+        "title": "Personvern (GDPR)",
+        "text": "Vi samler bare inn det vi trenger for å levere tjenesten."
+      },
+      {
+        "icon": "user",
+        "title": "Din konto",
+        "text": "Be om innsyn i eller sletting av dataene dine når som helst."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kom i gang på tre steg",
+    "cta": "Kjøp / prøv gratis!",
+    "items": [
+      {
+        "title": "Velg enhet/app",
+        "text": "Start med å bestemme hvilken enhet du vil bruke (mobil, datamaskin, Smart TV osv.). Du kan laste ned en kompatibel app fra App Store, Play-butikken eller det innebygde appbiblioteket på enheten din."
+      },
+      {
+        "title": "Les instruksjonene",
+        "text": "Les instruksjonene for enheten/appen din NØYE, og dobbeltsjekk stavemåten når du fyller ut informasjonen du mottar i velkomst-e-posten vår. Du må bruke påloggingsdetaljene fra velkomst-e-posten for å logge på enheten/appen."
+      },
+      {
+        "title": "Logg på",
+        "text": "Be om en gratis prøveperiode eller kjøp en pakke. Vi anbefaler at du etter prøveperioden forlenger med 3 måneder, så du kan fortsette å teste i fred og ro."
+      }
+    ],
+    "eyebrow": "Slik fungerer det"
+  },
+  "multi": {
+    "title": "Se på flere enheter",
+    "text": "Her er du aldri låst til én app eller enhet. Du kan ha tjenesten installert på tre enheter, men bare se på én om gangen. Vil du se på to eller tre enheter samtidig, trenger du et duo- eller trio-abonnement.",
+    "cta": "Kjøp / prøv gratis!",
+    "scenes": [
+      "Smart TV i stua",
+      "Laptop på kontoret",
+      "Nettbrett på reise"
+    ]
+  },
+  "nordic": {
+    "title": "Tilgjengelig i hele Norden",
+    "text": "Vi betjener kunder i Norge, Sverige, Danmark og Finland. Direkte-TV og et stort videobibliotek – med noe for alle innen sport, nyheter, underholdning og film.",
+    "cta": "Kjøp / prøv gratis!",
+    "countries": [
+      "Norge",
+      "Sverige",
+      "Danmark",
+      "Finland"
+    ]
+  },
+  "support": {
+    "title": "Støtte er inkludert i alle pakker!",
+    "text": "Supporten hjelper deg med alt fra installasjon til feilsøking av nettverket ditt, for å sikre at opplevelsen din blir så god som mulig!"
+  },
+  "testimonials": {
+    "title": "Våre fornøyde kunder",
+    "empty": "",
+    "items": []
+  },
+  "faq": {
+    "title": "Ofte stilte spørsmål om IPTV Norge",
+    "items": [
+      {
+        "q": "Hva er IPTV?",
+        "a": "IPTV står for Internet Protocol Television. I stedet for å motta TV via antenne, satellitt eller kabel, strømmes innholdet over internett til enheten din."
+      },
+      {
+        "q": "Hvordan fungerer IPTV?",
+        "a": "Video komprimeres med kodeker som H.264 eller H.265 og sendes over internett med protokoller som HLS. Appen på enheten din laster ned små biter av strømmen og spiller dem av fortløpende. Adaptiv bithastighet justerer kvaliteten automatisk etter hastigheten på forbindelsen din."
+      },
+      {
+        "q": "Hva trenger jeg for å se IPTV i Norge?",
+        "a": "Du trenger en stabil internettforbindelse (vi anbefaler minst 30 Mbit/s for HD og 4K), en kompatibel enhet som Smart TV, TV-boks, mobil eller datamaskin, en IPTV-app og et aktivt abonnement."
+      },
+      {
+        "q": "Fungerer IPTV Norge på Smart TV?",
+        "a": "Ja. IPTV Norge fungerer på Samsung, LG og andre Smart TV-er med en IPTV-spiller-app, og i tillegg på Apple TV, Android TV, Fire TV Stick, mobil, nettbrett og PC. Installasjonsveiledningen viser deg steg for steg."
+      },
+      {
+        "q": "Hvordan prøver jeg IPTV Norge gratis?",
+        "a": "Trykk «Start gratis prøveperiode» og send oss en melding på WhatsApp. Du får påloggingsdetaljer for en gratis prøveperiode på 1 dag, slik at du kan teste bildekvalitet og stabilitet på din egen enhet før du kjøper."
+      },
+      {
+        "q": "Hva koster IPTV Norge?",
+        "a": "IPTV Norge koster fra 222 kr for én måned. Lengre perioder gir lavere månedspris: 455 kr for 3 måneder, 800 kr for 6 måneder, 1200 kr for 12 måneder og 2000 kr for 24 måneder – det vil si ned mot 83 kr i måneden. Du kan også prøve gratis i én dag."
+      },
+      {
+        "q": "Hvor mye data bruker IPTV?",
+        "a": "Omtrent: SD 1–2 GB per time, HD 3–4 GB per time, Full HD 4–6 GB per time og 4K 10–15 GB per time. Ser du for eksempel tre timer HD hver dag, blir det rundt 300 GB i måneden."
+      },
+      {
+        "q": "Kan jeg få pengene mine tilbake hvis jeg ikke er fornøyd?",
+        "a": "Ja. Du har 14 dagers angrerett etter angrerettloven. Ber du oss starte tjenesten med en gang, betaler du bare for dagene du har brukt. Se refusjons- og avbestillingspolicyen for detaljer."
+      },
+      {
+        "q": "Er IPTV lovlig i Norge?",
+        "a": "Ja, IPTV som teknologi er lovlig i Norge og brukes av mange store TV-leverandører. Det avgjørende er om leverandøren har rettigheter til innholdet som distribueres. Velg alltid en leverandør som har lisens til innholdet."
+      },
+      {
+        "q": "Må jeg bruke VPN?",
+        "a": "Nei, du trenger ikke VPN for å bruke tjenesten."
+      },
+      {
+        "q": "Kan jeg ta med tjenesten til et annet land?",
+        "a": "Ja, du kan bruke tjenesten der du har internettforbindelse, så lenge rettighetene til innholdet tillater det i landet du er i."
+      }
+    ],
+    "eyebrow": "FAQ",
+    "text": "Finner du ikke svaret? Kontakt oss, så hjelper vi deg."
+  },
+  "footer": {
+    "tagline": "Eksperter på IPTV fra Norge.",
+    "rights": "Alle rettigheter forbeholdt.",
+    "terms": "Vilkår og betingelser",
+    "refund": "Refusjons- og avbestillingspolicy",
+    "privacy": "Personvernerklæring",
+    "cols": {
+      "product": "Tjeneste",
+      "company": "Selskap",
+      "legal": "Juridisk"
+    },
+    "orgnr": "Org.nr.",
+    "status": "Alle systemer i drift",
+    "reviews": "Se anmeldelser"
+  },
+  "pages": {
+    "about": {
+      "title": "Om oss",
+      "intro": "Vi gjør det enkelt å se TV på alle skjermer – uten binding og uten kompliserte oppsett.",
+      "sections": [
+        {
+          "h": "Hva vi gjør",
+          "p": "Vi leverer strømming av TV til kunder i Norge og resten av Norden. Tjenesten fungerer på de fleste enheter, og du kan starte med en gratis prøveperiode før du bestemmer deg."
+        },
+        {
+          "h": "Hva vi står for",
+          "p": "Ærlige priser, ingen binding og kundestøtte som faktisk svarer. Vi vil heller at du forlenger fordi du er fornøyd, enn fordi du er låst."
+        },
+        {
+          "h": "Kundestøtte",
+          "p": "Teamet vårt hjelper deg med alt fra installasjon til feilsøking av nettverket. Ta kontakt på e-post eller via kontaktskjemaet, så svarer vi så raskt vi kan."
+        }
+      ],
+      "seo": "Om IPTV Norge: TV-strømming på alle skjermer i hele Norge, uten binding og med gratis prøveperiode.",
+      "seoTitle": "Om oss – TV på alle skjermer i Norge"
+    },
+    "reseller": {
+      "title": "Forhandlerprogram",
+      "intro": "Driver du butikk, installasjonsfirma eller IT-service? Bli forhandler og tilby tjenesten til dine kunder.",
+      "sections": [
+        {
+          "h": "Slik fungerer det",
+          "p": "Du kjøper kreditter til forhandlerpris og oppretter kontoer for kundene dine i et eget panel. Du bestemmer selv utsalgsprisen."
+        },
+        {
+          "h": "Fordeler",
+          "p": "Rabatterte priser som øker med volum, eget administrasjonspanel, gratis prøvekontoer til kundene dine og prioritert kundestøtte."
+        },
+        {
+          "h": "Krav",
+          "p": "Du må drive registrert virksomhet og følge gjeldende lover og regler for markedsføring og forbrukerrettigheter i landet du selger i."
+        },
+        {
+          "h": "Kom i gang",
+          "p": "Send oss en melding med firmanavn, organisasjonsnummer og omtrent hvor mange kunder du forventer, så tar vi kontakt."
+        }
+      ],
+      "seo": "Bli forhandler av IPTV Norge. Forhandlerpriser, eget panel og prioritert kundestøtte.",
+      "seoTitle": "Forhandlerprogram – bli IPTV-forhandler"
+    },
+    "installation": {
+      "title": "Installasjonsveiledning",
+      "intro": "Kom i gang på få minutter. Velg enheten din og følg stegene.",
+      "sections": [],
+      "seo": "Slik installerer du IPTV Norge på Smart TV, Apple TV, Android TV, Fire TV, iPhone, Android og PC – steg for steg.",
+      "seoTitle": "Installasjonsveiledning – Smart TV og mobil"
+    },
+    "contact": {
+      "title": "Kontakt oss",
+      "intro": "Spørsmål om prøveperiode, bestilling eller installasjon? Send oss en melding.",
+      "sections": [],
+      "seo": "Kontakt IPTV Norge på WhatsApp eller e-post om prøveperiode, bestilling og installasjon.",
+      "seoTitle": "Kontakt oss – WhatsApp og e-post"
+    },
+    "terms": {
+      "title": "Vilkår og betingelser",
+      "intro": "Disse vilkårene gjelder når du kjøper og bruker tjenesten vår. Sist oppdatert: {date}.",
+      "sections": [
+        {
+          "h": "1. Om tjenesten",
+          "p": "Tjenesten leveres av selskapet oppgitt nederst på siden. Tjenesten gir deg tilgang til strømming av TV over internett i den perioden du har betalt for."
+        },
+        {
+          "h": "2. Bestilling og betaling",
+          "p": "Alle priser er oppgitt i norske kroner (NOK) og inkluderer eventuelle avgifter. Betaling skjer på forskudd via vår betalingsleverandør. Avtalen er inngått når betalingen er bekreftet."
+        },
+        {
+          "h": "3. Levering",
+          "p": "Påloggingsdetaljer sendes til e-postadressen du oppgir, normalt kort tid etter at betalingen er bekreftet."
+        },
+        {
+          "h": "4. Bruk av tjenesten",
+          "p": "Abonnementet er til personlig bruk. Du kan installere tjenesten på opptil tre enheter, men se på én om gangen med mindre du har kjøpt ekstra tilkoblinger. Påloggingsdetaljer skal ikke deles eller selges videre."
+        },
+        {
+          "h": "5. Ingen binding",
+          "p": "Abonnementet fornyes ikke automatisk. Du betaler for én periode om gangen og velger selv om du vil forlenge."
+        },
+        {
+          "h": "6. Angrerett",
+          "p": "Du har 14 dagers angrerett etter angrerettloven. Se refusjons- og avbestillingspolicyen vår for detaljer."
+        },
+        {
+          "h": "7. Driftsavbrudd",
+          "p": "Vi jobber for stabil drift, men kan ikke garantere at tjenesten alltid er tilgjengelig. Ved lengre avbrudd som skyldes oss, kan du få kompensasjon i form av forlenget abonnement."
+        },
+        {
+          "h": "8. Endringer",
+          "p": "Vi kan endre disse vilkårene. Endringer gjelder ikke for perioder du allerede har betalt for."
+        },
+        {
+          "h": "9. Tvister",
+          "p": "Avtalen reguleres av norsk rett. Klager kan sendes til oss først. Forbrukere kan også få hjelp fra Forbrukertilsynet og Forbrukerrådet."
+        }
+      ],
+      "seo": "Vilkår og betingelser for IPTV Norge: bestilling, betaling, levering, bruk av tjenesten, angrerett og tvister.",
+      "seoTitle": "Vilkår og betingelser"
+    },
+    "refund": {
+      "title": "Refusjons- og avbestillingspolicy",
+      "intro": "Vi vil at du skal være trygg når du handler hos oss. Sist oppdatert: {date}.",
+      "sections": [
+        {
+          "h": "Angrerett i 14 dager",
+          "p": "Som forbruker har du 14 dagers angrerett etter angrerettloven, regnet fra dagen avtalen ble inngått."
+        },
+        {
+          "h": "Hvis tjenesten er startet",
+          "p": "Ber du oss starte tjenesten før angrefristen er ute, har du fortsatt angrerett. Du betaler da bare for den delen av perioden du har brukt, og får resten tilbake."
+        },
+        {
+          "h": "Slik angrer du",
+          "p": "Send oss en e-post med ordrenummeret ditt og beskjed om at du vil angre kjøpet. Du kan også bruke det standard angreskjemaet fra Forbrukertilsynet."
+        },
+        {
+          "h": "Tilbakebetaling",
+          "p": "Vi betaler tilbake senest 14 dager etter at vi har mottatt beskjed om at du angrer, til samme betalingsmiddel som du brukte."
+        },
+        {
+          "h": "Avbestilling",
+          "p": "Abonnementet fornyes ikke automatisk, så du trenger ikke si opp. Tilgangen utløper ved slutten av perioden du har betalt for."
+        }
+      ],
+      "seo": "Angrerett og refusjon hos IPTV Norge: 14 dagers angrerett, slik angrer du, og når du får pengene tilbake.",
+      "seoTitle": "Refusjon og angrerett"
+    },
+    "privacy": {
+      "title": "Personvernerklæring",
+      "intro": "Slik behandler vi personopplysningene dine. Sist oppdatert: {date}.",
+      "sections": [
+        {
+          "h": "Behandlingsansvarlig",
+          "p": "Selskapet oppgitt nederst på siden er behandlingsansvarlig. Kontakt oss på e-post om personvern."
+        },
+        {
+          "h": "Hva vi samler inn",
+          "p": "Navn og e-postadresse når du bestiller eller kontakter oss, og ordreinformasjon. Kortopplysninger behandles av betalingsleverandøren vår og lagres aldri hos oss."
+        },
+        {
+          "h": "Hvorfor",
+          "p": "For å levere tjenesten du har kjøpt (avtale), svare på henvendelser (berettiget interesse) og oppfylle regnskapsplikt (rettslig forpliktelse)."
+        },
+        {
+          "h": "Hvor lenge",
+          "p": "Kundeopplysninger slettes når du ikke lenger er kunde, med unntak av regnskapsbilag som må lagres i fem år etter bokføringsloven."
+        },
+        {
+          "h": "Informasjonskapsler",
+          "p": "Vi bruker bare nødvendige informasjonskapsler, og analyseverktøy kun hvis du samtykker. Du kan trekke samtykket når som helst."
+        },
+        {
+          "h": "Dine rettigheter",
+          "p": "Du har rett til innsyn, retting, sletting og dataportabilitet, og til å protestere mot behandlingen. Du kan klage til Datatilsynet."
+        }
+      ],
+      "seo": "Slik behandler IPTV Norge personopplysningene dine: hva vi samler inn, hvorfor, hvor lenge, og dine rettigheter.",
+      "seoTitle": "Personvernerklæring og cookies"
+    }
+  },
+  "final": {
+    "title": "Klar til å prøve?",
+    "text": "Test hele tjenesten gratis i én dag. Ingen binding.",
+    "cta": "Start gratis prøveperiode"
+  },
+  "cookie": {
+    "text": "Vi bruker informasjonskapsler for å måle trafikk og forbedre nettsiden. Du velger selv.",
+    "accept": "Godta",
+    "decline": "Avslå",
+    "more": "Personvern"
+  },
+  "checkout": {
+    "success": {
+      "title": "Takk for bestillingen!",
+      "text": "Betalingen er mottatt. Du får en velkomst-e-post med påloggingsdetaljer og installasjonsveiledning i løpet av kort tid. Sjekk også søppelpost.",
+      "cta": "Se installasjonsveiledning",
+      "home": "Til forsiden"
+    },
+    "cancel": {
+      "title": "Betalingen ble avbrutt",
+      "text": "Ingen penger er trukket. Du kan prøve igjen når du vil, eller kontakte oss hvis noe er uklart.",
+      "cta": "Tilbake til priser"
+    }
+  },
+  "contactForm": {
+    "name": "Navn",
+    "email": "E-post",
+    "device": "Enhet (valgfritt)",
+    "topic": "Emne",
+    "topics": [
+      "Gratis prøveperiode",
+      "Bestilling",
+      "Installasjon",
+      "Teknisk hjelp",
+      "Forhandler",
+      "Annet"
+    ],
+    "message": "Melding",
+    "send": "Send melding",
+    "sending": "Sender …",
+    "sent": "Takk! Meldingen er sendt. Vi svarer så snart vi kan.",
+    "error": "Kunne ikke sende. Prøv igjen, eller send e-post direkte.",
+    "or": "Eller kontakt oss direkte"
+  },
+  "install": {
+    "choose": "Velg enhet",
+    "need": "Dette trenger du",
+    "needs": [
+      "Påloggingsdetaljene fra velkomst-e-posten (server, brukernavn, passord)",
+      "En stabil internettforbindelse – minst 30 Mbit/s for HD og 4K",
+      "En IPTV-spiller-app som støtter Xtream Codes eller M3U"
+    ],
+    "help": "Står du fast? Vi hjelper deg gjerne.",
+    "helpCta": "Kontakt kundestøtte",
+    "devices": [
+      {
+        "icon": "tv",
+        "name": "Smart TV",
+        "sub": "Samsung, LG og andre Smart TV-er",
+        "steps": [
+          "Åpne appbutikken på TV-en og søk etter en IPTV-spiller som støtter Xtream Codes eller M3U.",
+          "Installer og åpne appen. Noen apper viser en enhets-ID (MAC) – noter den og send den til oss om appen krever det.",
+          "Velg «Legg til spilleliste» eller «Xtream Codes» og skriv inn server, brukernavn og passord fra velkomst-e-posten.",
+          "Vent mens kanaler og programguide lastes inn. Første gang kan det ta et par minutter."
+        ]
+      },
+      {
+        "icon": "devices",
+        "name": "Android TV / Fire TV",
+        "sub": "Google TV, Nvidia Shield, Fire TV Stick, TV-bokser",
+        "steps": [
+          "Åpne Google Play (eller Amazon Appstore på Fire TV) og installer en IPTV-spiller.",
+          "Åpne appen og velg innlogging med Xtream Codes (API).",
+          "Skriv inn server-URL, brukernavn og passord nøyaktig slik de står i velkomst-e-posten.",
+          "Aktiver EPG i innstillingene for å få programguiden."
+        ]
+      },
+      {
+        "icon": "tv",
+        "name": "Apple TV",
+        "sub": "Apple TV HD og 4K",
+        "steps": [
+          "Åpne App Store på Apple TV og søk etter en IPTV-spiller.",
+          "Installer appen og velg «Legg til konto» eller «Xtream Codes».",
+          "Skriv inn påloggingsdetaljene fra velkomst-e-posten.",
+          "Last inn kanaler og programguide, og begynn å se."
+        ]
+      },
+      {
+        "icon": "mobile",
+        "name": "iPhone / iPad",
+        "sub": "iOS og iPadOS",
+        "steps": [
+          "Last ned en IPTV-spiller fra App Store.",
+          "Åpne appen og legg til en ny spilleliste med Xtream Codes eller M3U.",
+          "Lim inn detaljene fra velkomst-e-posten. Tips: kopier og lim for å unngå skrivefeil.",
+          "Du kan også strømme til TV-en med AirPlay."
+        ]
+      },
+      {
+        "icon": "mobile",
+        "name": "Android-mobil",
+        "sub": "Telefoner og nettbrett",
+        "steps": [
+          "Last ned en IPTV-spiller fra Google Play.",
+          "Åpne appen og velg Xtream Codes (API) eller M3U-URL.",
+          "Lim inn påloggingsdetaljene fra velkomst-e-posten.",
+          "Du kan caste til TV-en med Chromecast."
+        ]
+      },
+      {
+        "icon": "devices",
+        "name": "PC / Mac",
+        "sub": "Windows og macOS",
+        "steps": [
+          "Installer en IPTV-spiller for datamaskin, for eksempel VLC eller en dedikert IPTV-app.",
+          "I VLC: velg «Media» → «Åpne nettverksstrøm» og lim inn M3U-lenken fra velkomst-e-posten.",
+          "I en IPTV-app: velg Xtream Codes og skriv inn server, brukernavn og passord.",
+          "Bruk kablet nett eller 5 GHz Wi-Fi for best stabilitet."
+        ]
+      }
+    ]
+  },
+  "guide": {
+    "eyebrow": "IPTV Norge forklart",
+    "title": "Hva er IPTV Norge?",
+    "paras": [
+      "IPTV Norge er en strømmetjeneste som leverer TV over internett i stedet for via kabel, satellitt eller antenne. Du ser direkte-TV, filmer og serier i en app på enheten du allerede har – Smart TV, TV-boks, mobil, nettbrett eller datamaskin.",
+      "Tjenesten er laget for seere i Norge og resten av Norden. Den fungerer i hele landet – fra Oslo, Bergen og Trondheim til Stavanger, Kristiansand og Tromsø – så lenge du har en stabil internettforbindelse.",
+      "Du trenger ingen parabol, ingen dekoder og ingen bindingstid. Du velger selv hvor lenge du vil abonnere, og du kan teste alt gratis i én dag før du betaler."
+    ],
+    "factsTitle": "IPTV Norge i korte trekk",
+    "facts": [
+      [
+        "Pris",
+        "Fra 83 kr/mnd · 222 kr for 1 måned"
+      ],
+      [
+        "Gratis prøveperiode",
+        "1 dag"
+      ],
+      [
+        "Bildekvalitet",
+        "HD, Full HD og 4K"
+      ],
+      [
+        "Enheter",
+        "Smart TV, Apple TV, Android TV, Fire TV, mobil, nettbrett, PC og Mac"
+      ],
+      [
+        "Samtidige skjermer",
+        "1 (flere med ekstra tilkoblinger)"
+      ],
+      [
+        "Anbefalt hastighet",
+        "Minst 30 Mbit/s"
+      ],
+      [
+        "Binding",
+        "Ingen"
+      ],
+      [
+        "Angrerett",
+        "14 dager"
+      ],
+      [
+        "Tilgjengelig i",
+        "Hele Norge, Sverige, Danmark og Finland"
+      ]
+    ]
+  },
+  "crumbHome": "Hjem",
+  "images": {
+    "hero": "Koselig stue med utsikt over en norsk fjord, der IPTV Norge vises på en stor Smart TV",
+    "family": "Familie ser på IPTV Norge sammen i en hytte en vinterkveld",
+    "devices": "IPTV Norge på bærbar PC, nettbrett og mobil, med TV-fjernkontroll på et trebord",
+    "train": "Passasjer ser på IPTV Norge på nettbrett på toget gjennom snødekte norske fjell",
+    "stadium": "Fotballstadion i flomlys om kvelden – se direktesendt sport med IPTV Norge",
+    "aurora": "Nordlys over en fiskevær med røde rorbuer i Nord-Norge",
+    "install": "Pålogging i en IPTV-app på Smart TV med fjernkontroll – installasjon av IPTV Norge",
+    "support": "Kundestøtte for IPTV Norge – arbeidsplass med headset og chat på kvelden",
+    "town": "Norsk kystby med fargerike trehus og snødekte fjell i blåtimen",
+    "phone": "Hånd som holder en mobil med en IPTV-app foran en TV – kom i gang med IPTV Norge",
+    "shop": "Elektronikkbutikk med TV-bokser, fjernkontroller og kabler – bli forhandler av IPTV Norge"
+  }
+}
