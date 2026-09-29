@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 
 import { locales, type Locale, getDictionary } from "@/lib/i18n";
 import Navbar from "@/components/Navbar";
@@ -72,6 +73,7 @@ export default async function LocaleLayout({
         <ContactButton label={t.nav.contact} locale={locale} helpMsg={t.pricing.waHelp} />
         <OfferPopup t={t.offer} plan={t.pricing.plans[site.offer.planIndex]} monthlyPrice={Number(t.pricing.plans[1].price)} locale={locale} />
         <Analytics t={t.cookie} privacyHref={`/${locale}/privacy`} />
+        <VercelAnalytics />
       </body>
     </html>
   );
